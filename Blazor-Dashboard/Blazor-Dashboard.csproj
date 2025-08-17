@@ -18,19 +18,20 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.2.0-preview3.20168.3" />
 
 -->
-  
-    <ProjectReference Include="../../Blazor-Charts/DonutChart/DonutChart.csproj" />
-    <ProjectReference Include="../../Blazor-Charts/PieChart/PieChart.csproj" />
-    <ProjectReference Include="../../Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj" />
-    <ProjectReference Include="../../Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj" />
-    <ProjectReference Include="../../Blazor-Charts/LineChart/LineChart.csproj" />
 
-    <ProjectReference Include="../../Blazor-Sparkline/Sparklines/Sparklines.csproj" />
-    <ProjectReference Include="../../Blazor-Sparkline/ColumnBars/ColumnBars.csproj" />
-    <ProjectReference Include="../../Blazor-Sparkline/MiniPie/MiniPie.csproj" />
-    <ProjectReference Include="../../Blazor-Sparkline/WinLoss/WinLoss.csproj" />
-    <ProjectReference Include="../../Blazor-Sparkline/BulletBars/BulletBars.csproj" />
+  </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BulletBars\BulletBars.csproj" />
+    <ProjectReference Include="..\ColumnBars\ColumnBars.csproj" />
+    <ProjectReference Include="..\DonutChart\DonutChart.csproj" />
+    <ProjectReference Include="..\HorizontalBarChart\HorizontalBarChart.csproj" />
+    <ProjectReference Include="..\LineChart\LineChart.csproj" />
+    <ProjectReference Include="..\MiniPie\MiniPie.csproj" />
+    <ProjectReference Include="..\PieChart\PieChart.csproj" />
+    <ProjectReference Include="..\Sparklines\Sparklines.csproj" />
+    <ProjectReference Include="..\VerticalBarChart\VerticalBarChart.csproj" />
+    <ProjectReference Include="..\WinLoss\WinLoss.csproj" />
   </ItemGroup>
 
 
